@@ -1,0 +1,96 @@
+/* H, for home list
+ * derived from D
+ -----------------------------------------------------------------------------------------------------------*/
+
+.ui-bar-h {
+	border: 0px solid #ccc /*{d-bar-border}*/;
+	background: #422559 /*{d-bar-background-color}*/;
+	color: #fff /*{d-bar-color}*/;
+	text-shadow: 0 /*{d-bar-shadow-x}*/1px /*{d-bar-shadow-y}*/0 /*{d-bar-shadow-radius}*/#000 /*{d-bar-shadow-color}*/;
+	padding: 1.2em 75px 1.2em 15px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif /*{a-bar-font}*/;
+	font-weight: 600;
+	letter-spacing:;
+	text-transform: uppercase;
+}
+.ui-bar-h, .ui-bar-h input, .ui-bar-h select, .ui-bar-h textarea, .ui-bar-h button {
+}
+.ui-bar-h .ui-link-inherit {
+	color: #333 /*{d-bar-color}*/;
+}
+.ui-bar-h .ui-link {
+	color: #2489CE /*{global-link-color}*/;
+	font-weight: bold;
+}
+/* .ui-li .ui-btn-inner {
+ display: block;
+ position: relative;
+ padding: .7em 75px .7em 15px;
+ } */
+.ui-body-h {
+	border: 0px solid #ccc /*{d-body-border}*/;
+	color: #333333 /*{d-body-color}*/;
+	text-shadow: 0 /*{d-body-shadow-x}*/1px /*{d-body-shadow-y}*/0 /*{d-body-shadow-radius}*/#fff /*{d-body-shadow-color}*/;
+	background: #ffffff /*{d-body-background-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff /*{d-body-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #fff /*{d-body-background-start}*/, #fff /*{d-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image: -moz-linear-gradient(top, #fff /*{d-body-background-start}*/, #fff /*{d-body-background-end}*/); /* FF3.6 */
+	background-image: -ms-linear-gradient(top, #fff /*{d-body-background-start}*/, #fff /*{d-body-background-end}*/); /* IE10 */
+	background-image: -o-linear-gradient(top, #fff /*{d-body-background-start}*/, #fff /*{d-body-background-end}*/); /* Opera 11.10+ */
+	background-image: linear-gradient(top, #fff /*{d-body-background-start}*/, #fff /*{d-body-background-end}*/);
+}
+.ui-body-h, .ui-body-h input, .ui-body-h select, .ui-body-h textarea, .ui-body-h button {
+}
+.ui-body-h .ui-link-inherit {
+	color: #333333 /*{d-body-color}*/;
+}
+.ui-body-h .ui-link {
+	color: #2489CE /*{global-link-color}*/;
+	font-weight: bold;
+}
+.ui-btn-up-h {
+	background: #7d278a /*{d-bup-background-color}*/;
+	font-weight: 600;
+	color: #fff /*{d-bup-color}*/;
+	text-shadow: 0 /*{d-bup-shadow-x}*/1px /*{d-bup-shadow-y}*/1px /*{d-bup-shadow-radius}*/#000 /*{d-bup-shadow-color}*/;
+}
+.ui-btn-up-h a.ui-link-inherit {
+	color: #fff /*{d-bup-color}*/;
+}
+.ui-btn-hover-h {
+	border: 0px solid #aaa /*{d-bhover-border}*/;
+	background: #eeeeee /*{d-bhover-background-color}*/;
+	font-weight: normal;
+	color: #222 /*{d-bhover-color}*/;
+	cursor: pointer;
+	text-shadow: 0 /*{d-bhover-shadow-x}*/1px /*{d-bhover-shadow-y}*/1px /*{d-bhover-shadow-radius}*/#fff /*{d-bhover-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#eee /*{d-bhover-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #fdfdfd /*{d-bhover-background-start}*/, #eee /*{d-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image: -moz-linear-gradient(top, #fdfdfd /*{d-bhover-background-start}*/, #eee /*{d-bhover-background-end}*/); /* FF3.6 */
+	background-image: -ms-linear-gradient(top, #fdfdfd /*{d-bhover-background-start}*/, #eee /*{d-bhover-background-end}*/); /* IE10 */
+	background-image: -o-linear-gradient(top, #fdfdfd /*{d-bhover-background-start}*/, #eee /*{d-bhover-background-end}*/); /* Opera 11.10+ */
+	background-image: linear-gradient(top, #fdfdfd /*{d-bhover-background-start}*/, #eee /*{d-bhover-background-end}*/);
+}
+.ui-btn-hover-h a.ui-link-inherit {
+	color: #222 /*{d-bhover-color}*/;
+}
+.ui-btn-down-h {
+	border: 0px solid #aaaaaa /*{d-bdown-border}*/;
+	background: #8D199E /*{d-bdown-background-color}*/;
+	font-weight: 400;
+	color: #000 /*{d-bdown-color}*/;
+	text-shadow: 0 /*{d-bdown-shadow-x}*/1px /*{d-bdown-shadow-y}*/1px /*{d-bdown-shadow-radius}*/#000 /*{d-bdown-shadow-color}*/;
+}
+.ui-btn-down-h a.ui-link-inherit {
+	color: #fff /*{d-bdown-color}*/;
+}
+.ui-btn-up-h, .ui-btn-hover-h, .ui-btn-down-h {
+	text-decoration: none;
+}
+.ui-listview-inset .ui-bar-h.ui-li {
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+.ui-bar-h.header {
+	padding-right:10px;
+}

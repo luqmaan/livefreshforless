@@ -1,0 +1,9 @@
+.ui-page.ui-body-s {
+	background-size: 110px;
+}
+#contentContainer {
+	margin-top: 5px;
+}
+.skinnyButton .ui-btn-inner {
+	font-size:10px;
+}
